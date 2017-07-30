@@ -1,8 +1,8 @@
 <?php
 
-	$dsn = 'mysql:host=shareddb1d.hosting.stackcp.net;dbname=wordpress-323119e6';
-	$user = 'wordpress-323119e6';
-	$pass = 'e9322dfc3559';
+	$dsn = 'mysql:host=localhost;dbname=support';
+	$user = 'root';
+	$pass = '';
 	$option = array(
 		PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 	);
